@@ -20,10 +20,8 @@ npm run dev
 In `.env.local` file you have to type
 
 ```bash
-GITHUB_ID=your github id
-GITHUB_SECRET=your github secret
-NEXT_PUBLIC_KEY_ID=your razorpay id
-KEY_SECRET=your razorpay secret
+GITHUB_ID=< your github id >
+GITHUB_SECRET=< your github secret >
 ```
 
 type as it is in `.env.local`
@@ -32,6 +30,7 @@ type as it is in `.env.local`
 NEXT_PUBLIC_URL=http://localhost:3000
 NEXTAUTH_URL=http://localhost:3000
 NESTAUTH_SECRET=sdf
+MONGO_URI=mongodb://localhost:27017/< your database name >
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
